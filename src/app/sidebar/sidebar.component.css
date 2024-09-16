@@ -1,0 +1,52 @@
+/* .sidebar{
+    background-color: black;
+    width: 102px;
+} */
+
+.sidebar {
+  background-color: #001636; /* Dark blue background */
+  /* width: 10.5vw;  */
+  width: 4.5vw; 
+  height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100%; 
+  height: 100%;
+}
+
+.menu {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px ;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+

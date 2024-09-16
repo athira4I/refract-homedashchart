@@ -1,0 +1,39 @@
+.main-body{
+    background-color: aqua;
+}
+/* Ensure body and html take full viewport height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Hide scrollbars */
+  }
+  
+  /* Container for all charts */
+  .charts-wrapper {
+    display: flex; /* Align charts side by side */
+    flex-wrap: wrap; /* Allow charts to wrap onto new lines if needed */
+    gap: 10px; /* Space between charts */
+    padding: 10px; /* Padding around the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Style for each chart component */
+  .charts-wrapper > * {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust width for up to 3 charts per row */
+    max-width: calc(33.33% - 20px); /* Ensure charts do not exceed container width */
+    min-width: 300px; /* Minimum width of each chart */
+    height: calc(33.33vh - 20px); /* Adjust height to fit within viewport height */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  /* Optional: Adjust specific charts */
+  #specific-chart-id {
+    flex: 1 1 100%; /* For full width on specific charts */
+    height: 50vh; /* Adjust height */
+  }
+  

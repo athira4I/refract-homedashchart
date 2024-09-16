@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.todays-log-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* top: 10vw;  */
+  /* left: 8vw; */
+  /* height: 10vh;  */
+  width: 95vw;
+/* height: 103px; */
+
+}
+
+.chart-container {
+  position: relative;
+  border: 2px solid #ffffff;
+  width: 25vw; /* Example value, adjust as needed */
+  height: 12vh; /* Example value, adjust as needed */
+  border: 1px solid red;
+  margin: 1rem;
+}
+
+.text-container {
+  z-index: 1;
+  color: #ffffff; /* Adjust text color as needed */
+}
+
+.chart {
+  top: 4vh; /* Example value, adjust as needed */
+  left: 0;
+  width: 227px; /* Example value, adjust as needed */
+}
+
+.searchbar {
+  width: auto; /* Example value, adjust as needed */
+  height: 3vh; /* Example value, adjust as needed */
+  background: #B3CDE0;
+  border-radius: 15px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+}
+
+.searchbar p,
+.searchbar img {
+  padding: 1rem;
+}
+
+.chart-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-text {
+  /* width: 11vw;  */
+  display: flex; /* Use flex to align items */
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+.main-chart-container{
+  /* background-color: orange; */
+  width: 95.5vw;
+  height: 103px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+}
+
+.chart-text-big{
+text-align: left;
+font-family: Arial, sans-serif; /* or Times New Roman, serif; */
+font-weight: normal;
+font-size: 38px;
+/* line-height: 57px; */
+letter-spacing: 1.9px;
+color: #FFFFFF;
+display: inline;
+margin: 0
+}
+
+.chart-text-medium{
+  /* top: 240px;
+left: 131px; */
+/* width: 86px; */
+/* height: 27px; */
+/* UI Properties */
+text-align: left;
+/* font: normal normal medium 19px/29px Poppins; */
+
+font-family: sans-serif;
+font-weight: normal; /* Normal weight */
+font-size: 19px;
+/* line-height: 29px; */
+margin: 0; /* Ensure no extra margin */
+  padding: 0; /* Ensure no extra padding */
+
+
+letter-spacing: 0.47px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.chart-text-small{
+  /* Layout Properties */
+/* top: 247px;
+left: 206px; */
+width: 79px;
+height: 17px;
+/* UI Properties */
+text-align: left;
+/* font: normal normal medium 12px/18px Poppins; */
+font-family: sans-serif; /* Use your preferred font */
+  font-weight: normal;
+  font-size: 12px;
+letter-spacing: 0px;
+color: #B3CDE0;
+opacity: 1;
+margin: 0; /* Ensure no extra margin */
+  padding: 0; /* Ensure no extra padding */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
